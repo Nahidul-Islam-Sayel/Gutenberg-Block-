@@ -19,7 +19,8 @@
 		"text": {
 			"type": "string",
 			"source": "html",
-			"selector": "h4"	
+			"selector": "h4"
+		
 		}
 	},
 	"viewScript": "file:./view.js"

@@ -45,8 +45,6 @@ registerBlockType('techearty/boilerplate', {
 	},
 	edit: Edit,
 
-	/**
-	 * @see ./save.js
-	 */
+	
 	save,
 });
