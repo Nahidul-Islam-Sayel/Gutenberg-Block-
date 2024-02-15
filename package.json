@@ -25,6 +25,7 @@
 		"prettier": "^3.2.5"
 	},
 	"dependencies": {
+		"@wordpress/i18n": "^4.51.0",
 		"husky": "^9.0.11"
 	}
 }
