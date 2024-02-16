@@ -1,11 +1,17 @@
 .wp-block-create-block-boilerplate {
-	&.text-box-align-right{
+	&.has-shadow {
+		box-shadow: 20 20 20px rgba(20, 20, 20, 2.3);
+	}
+
+	&.text-box-align-right {
 		text-align: right;
 	}
-	&.text-box-align-center{
+
+	&.text-box-align-center {
 		text-align: center;
 	}
-	&.text-box-align-left{
+
+	&.text-box-align-left {
 		text-align: left;
 	}
 }

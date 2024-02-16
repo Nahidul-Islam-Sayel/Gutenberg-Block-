@@ -13,7 +13,15 @@
   ],
   "example": {},
   "supports": {
-    "html": false
+    "html": false,
+    "color": {
+      "background": true,
+      "text": true,
+      "gradients": true
+    },
+    "spacing": {
+      "padding": true
+    }
   },
   "textdomain": "text-box",
   "editorScript": "file:./index.js",
@@ -29,11 +37,37 @@
       "type": "string",
       "default": "left"
     },
+    "shadow": {
+      "type": "boolean",
+      "default": false
+    },
     "backgroundColor": {
-      "type": "string"
+      "type": "string",
+      "default": "strong-magenta"
     },
     "textColor": {
-      "type": "string"
+      "type": "string",
+      "default": "very-light-gray"
+    },
+    "gradient": {
+      "type": "string",
+      "default": "green-to-yellow"
+    },
+    "style": {
+      "type": "object",
+      "default": {
+        "color": {
+          "background": "#f03"
+        },
+        "spacing": {
+          "padding": {
+            "top": "50px",
+            "right": "50px",
+            "bottom": "50px",
+            "left": "50px"
+          }
+        }
+      }
     }
   },
   "viewScript": "file:./view.js"
